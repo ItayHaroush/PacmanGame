@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+ }
+canvas{
+    display: block;
+    margin: 0 auto;
+ }
+ h6{
+    color: white;
+    font-size:larger;
+    margin-top: 200px;
+
+}
+#gk{
+    color:white;
+    margin-left: 50px;
+}
+.logo-container {
+    width:20px;
+    height:20px;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+/* Responsive logo */
+.logo-container img {
+    max-width: 90vw;
+    height: auto;
+}
+
+/* Responsive main content */
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.instructions {
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    max-width: 300px;
+    margin-top: 40px;
+    margin-left: 50px;
+    min-width: 180px;
+    max-width: 250px;
+}
+.wControls {
+        width: 160px; height: 40px; 
+        border-radius: 5px; border: 3px solid navy ;
+        box-shadow:  5px 5px 25px navy;
+        text-align: center;    
+        margin-left: 30px;
+        padding: 10px; 
