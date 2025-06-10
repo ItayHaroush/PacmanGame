@@ -43,6 +43,16 @@
         let unMuteBtn = document.getElementById('unMute');
         updateEnemy();
         
+        document.getElementById('left').onclick = () => movePacman('left');
+        document.getElementById('up').onclick = () => movePacman('up');
+        document.getElementById('down').onclick = () => movePacman('down');
+        document.getElementById('right').onclick = () => movePacman('right');
+
+        function movePacman(direction) {
+            // Call your existing movement logic here
+            // Example:
+            // pacman.move(direction);
+        }
    </script>
 </body>
 
